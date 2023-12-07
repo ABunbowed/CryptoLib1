@@ -8,13 +8,11 @@ const {Text, Title} = Typography;
 
 
 const News = ({simplified}) => {
-  const { data: cryptoNews, error, isLoading } = useGetCryptoNewsQuery({count : simplified ? 10 : 20})
+  const { data: cryptoNews, error, isLoading } = useGetCryptoNewsQuery({count : simplified ? 15 : 20})
 
   if (isLoading) return "Loading...";
   if (error) return `Error: ${error}`;
-  // Check if cryptoNews and cryptoNews.value are defined
   if (!cryptoNews || !cryptoNews.data) return 'No news available.';
-  // Check if cryptoNews.value has a 'slice' method
   const articlesToShow = cryptoNews.data.slice(0, 6) || [];
   const demoImage = "https://www.nasdaq.com/sites/acquia.prod/files/2022/11/09/coindesksquare.jpg"
   return (
