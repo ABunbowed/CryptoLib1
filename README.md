@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# CryptoLib
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to CryptoLib, your go-to source for cryptocurrency information and real-time data.
 
-## Available Scripts
+## Table of Contents
+- [About]
+- [Features]
+- [Technologies]
+- [Getting Started]
+- [Usage]
+- [Contributing]
+- [License]
 
-In the project directory, you can run:
+## About
+CryptoLib is a web application that provides real-time information about cryptocurrencies. Stay updated on cryptocurrency prices, historical data, and more.
 
-### `npm start`
+## Features
+- View a list of cryptocurrencies.
+- Get detailed information about each cryptocurrency.
+- Explore historical price charts for a selected cryptocurrency.
+- View recent news events around cryptocurrencies 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies
+- React
+- Redux Toolkit
+- Chart.js
+- Ant Design
+- Axios
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
+1. Clone the repository:
+   ```bash
+   git clone (https://github.com/ABunbowed/CryptoLib1)https://github.com/ABunbowed/CryptoLib1
 
-### `npm test`
+2. Install dependencies:
+   ```bash
+   cd CryptoLib
+   npm install
+3. Run the app:
+   ```bash
+   npm start
+Open http://localhost:3000 in your browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
+Visit the live site at [crypto-lib1.vercel.app/].
+Explore the cryptocurrency list, cryptocurrency details, and historical charts.
 
-### `npm run build`
+## Contributing
+Contributions are welcome! Please follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.  Fork the repository.
+2.  Create a new branch: git checkout -b feature/new-feature.
+3.  Commit your changes: git commit -am 'Add new feature'.
+4.  Push to the branch: git push origin feature/new-feature.
+5.  Submit a pull request.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Known Issues
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Issue 1: Compatibility with Chart Libraries
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Description:** The project relies on specific versions of chart libraries, UI components, and React. The compatibility issues between these dependencies may lead to challenges in installation and usage.
 
-## Learn More
+- **Solution:** The recommended approach is to install the project using the `--force` flag for dependencies. Note that this is a temporary solution, and the project may not work seamlessly in all environments.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Issue 2: Selecting Time Period Does Not Update Chart
 
-### Code Splitting
+- **Description:** The "Select Time Period" functionality, intended to update the chart based on the selected time period, is not functioning as expected.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Solution:** Currently, there is no immediate solution provided. Due to time constraints, debugging has been deferred. This issue is known and may be addressed in future updates.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
