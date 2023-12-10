@@ -56,3 +56,23 @@ Contributions are welcome! Please follow these steps:
 
 
 
+
+
+## Known Issues
+
+### Issue 1: Compatibility with Chart Libraries
+
+- **Description:** The project relies on specific versions of chart libraries, UI components, and React. The compatibility issues between these dependencies may lead to challenges in installation and usage.
+
+- **Solution:** The recommended approach is to install the project using the `--force` flag for dependencies. Note that this is a temporary solution, and the project may not work seamlessly in all environments.
+
+---
+
+### Issue 2: Selecting Time Period Does Not Update Chart
+
+- **Description:** The "Select Time Period" functionality, intended to update the chart based on the selected time period, is not functioning as expected.
+
+- **Solution:** Currently, there is no immediate solution provided. Due to time constraints, debugging has been deferred. This issue is known and may be addressed in future updates.
+
+---
+
